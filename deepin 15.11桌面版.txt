@@ -1,0 +1,20 @@
+deepin 15.11桌面版
+
+1:usb接口不识别
+
+修改 /etc/default/grub，编辑GRUB_CMDLINE_LINUX选项：
+GRUB_CMDLINE_LINUX="iommu=soft"
+sudo update-grub
+sudo reboot
+
+2：dock栏上的托盘不见了
+
+先编辑 ~/.config/deepin/dde-dock.conf 文件
+将enable=false修改为enable=true
+
+
+再把dock栏杀死它会自己重启dock栏：killall dde-dock
+
+3：触控板滑动上下颠倒
+
+打开自然滚动
