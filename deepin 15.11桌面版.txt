@@ -17,4 +17,12 @@ sudo reboot
 
 3：触控板滑动上下颠倒
 
-打开自然滚动
+打开自然滚动.
+
+4 :无法开启窗口特效
+
+# 重置窗口配置
+kwin --replace
+修改: ~/.config/kwinrc中
+OpenGLIsUnsafe=false
+重启 试试
