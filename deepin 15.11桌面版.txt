@@ -26,3 +26,15 @@ kwin --replace
 修改: ~/.config/kwinrc中
 OpenGLIsUnsafe=false
 重启 试试
+
+5：安装visual studio code 后,系统内凡是需要使用“打开所在文件夹”功能后默认使用visual studio code打开
+
+
+右键打开修改默认程序，选中桌面文件右键，打开方式-->选择默认程序-->选择文件管理器
+
+6 :美化
+
+Dock栏 特效 壁纸
+
+https://www.bilibili.com/video/BV1pE411E7dL/
+
